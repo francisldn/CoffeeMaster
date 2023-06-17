@@ -11,6 +11,7 @@
 		38CC01482A3CFFFA0061DED1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CC01472A3CFFFA0061DED1 /* ContentView.swift */; };
 		38CC014A2A3CFFFD0061DED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CC01492A3CFFFD0061DED1 /* Assets.xcassets */; };
 		38CC014D2A3CFFFD0061DED1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CC014C2A3CFFFD0061DED1 /* Preview Assets.xcassets */; };
+		38CC01542A3DE4CE0061DED1 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CC01532A3DE4CE0061DED1 /* Offer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		38CC01472A3CFFFA0061DED1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38CC01492A3CFFFD0061DED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38CC014C2A3CFFFD0061DED1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38CC01532A3DE4CE0061DED1 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				38CC01452A3CFFFA0061DED1 /* CoffeeMasterApp.swift */,
 				38CC01472A3CFFFA0061DED1 /* ContentView.swift */,
+				38CC01532A3DE4CE0061DED1 /* Offer.swift */,
 				38CC01492A3CFFFD0061DED1 /* Assets.xcassets */,
 				38CC014B2A3CFFFD0061DED1 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CC01542A3DE4CE0061DED1 /* Offer.swift in Sources */,
 				38CC01482A3CFFFA0061DED1 /* ContentView.swift in Sources */,
 				38CC01462A3CFFFA0061DED1 /* CoffeeMasterApp.swift in Sources */,
 			);

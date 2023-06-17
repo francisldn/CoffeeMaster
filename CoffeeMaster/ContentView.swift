@@ -8,19 +8,50 @@
 import SwiftUI
 
 struct ContentView: View {
+   
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView{
+            Greeting()
+            Greeting()
+            Greeting()
+
+            Greeting()
+
+            Greeting()
+
+            Greeting()
+
+            Greeting()
+
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct CenteredTextFieldStyle: TextFieldStyle {
+    func _body(configuration: TextField<Self._Label>) -> some View {
+        configuration
+            .multilineTextAlignment(.center) // Set text alignment to center
+    }
+}
+
+struct Greeting: View {
+    @State var name = ""
+    var body: some View{
+        VStack {
+            HStack {
+                TextField("Enter your name", text: $name)
+                    .textFieldStyle(CenteredTextFieldStyle())
+                    .padding()
+                    .background(.gray)
+                    .cornerRadius(8)
+            }
+            Text("Hello \(name)")
+        }
     }
 }
