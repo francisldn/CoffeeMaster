@@ -25,8 +25,6 @@ struct Offer_Previews: PreviewProvider {
         Group {
             Offer(title: "My offer", description: "This is a description")
                 .previewInterfaceOrientation(.portrait)
-            Offer(title: "My offer", description: "This is a description")
-                .previewInterfaceOrientation(.landscapeRight)
         }
        
     }
